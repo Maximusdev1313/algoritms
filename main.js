@@ -219,20 +219,20 @@
 // console.log(modifiedLetter);
 
 // 163
-const inputSentence = 'Intilganga tole yor';
+// const inputSentence = 'Intilganga tole yor';
 
-function func(sentence) {
-    const words = sentence.split(' ');
-    let longestWord = '';
+// function func(sentence) {
+//     const words = sentence.split(' ');
+//     let longestWord = '';
 
-    for (const word of words) {
-        if (word.length > longestWord.length) {
-            longestWord = word;
-        }
-    }
+//     for (const word of words) {
+//         if (word.length > longestWord.length) {
+//             longestWord = word;
+//         }
+//     }
 
-    return longestWord;
-}
+//     return longestWord;
+// }
 
-const longWord = func(inputSentence);
-console.log(longWord)
+// const longWord = func(inputSentence);
+// console.log(longWord)
